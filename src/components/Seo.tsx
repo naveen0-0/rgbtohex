@@ -26,7 +26,6 @@ const Seo = ({
   return (
     <Head>
       <meta charSet="utf-8" />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       <meta name="viewport" content="width=device-width" />
       <meta name="generator" content={generator} />
       <title>{title}</title>
@@ -35,7 +34,7 @@ const Seo = ({
       <link rel="canonical" href={url} />
 
       {/* <!-- Open Graph --> */}
-      <meta property="og:site_name" content="Various Calculators" />
+      <meta property="og:site_name" content="Web Gadgets" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />

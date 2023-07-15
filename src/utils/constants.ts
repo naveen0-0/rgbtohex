@@ -1,10 +1,18 @@
 export const siteData = {
-  url: "https://calcfusion.vercel.app",
-  title: "CalcFusion",
+  url: "https://webgadgets.vercel.app/",
+  title: "Web Gadgets",
   description:
-    "Simplify calculations with our versatile calculator website. From basic arithmetic to advanced scientific functions, we've got you covered. Calculate finances, solve scientific problems, and explore academic resources effortlessly. Accessible on any device, our user-friendly interface ensures a seamless experience. Experience the power of precise calculations at your fingertips.",
+    "Streamline your web development process with our comprehensive collection of cutting-edge tools, empowering you to create stunning and efficient websites with ease.",
   image: {
-    src: "/images/default.jpg",
-    alt: "Various Calculators",
+    src: "default.jpg",
+    alt: "Web Gadgets",
   },
 };
+
+export const NAV_LINKS = [
+  {
+    id: 1,
+    link: "/",
+    text: "Home",
+  },
+];
